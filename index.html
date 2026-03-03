@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 Dynamic Web Fundamentals Micheal Onyemelonu</title>
+  <meta name="description" content="WDD 131 Dynamic Web Fundamentals | Micheal Onyemelonu | Personal homepage with course links, practice assignments, and web development projects.">
+  <meta name="author" content="Micheal Onyemelonu">
+</head>
+
+<body>
+  <header>
+    <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+    <nav>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank" rel="noopener">
+        Favorite Scripture
+      </a>
+      <a href="final-project/index.html">Final Project</a>
+    </nav>
+  </header>
+ 
+  <main>
+
+    <h1>Micheal Onyemelonu</h1>
+
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Profile picture">
+      <p>
+        This is some placeholder text about me. You can replace this with a short
+        introduction: where you are from, what you are studying, and what you
+        enjoy doing.
+      </p>
+    </section>
+
+
+    <section class="card">
+      <h2>My Interests</h2>
+      <img src="images/nigeria-picture.webp" alt="Picture of a city in nigeria">
+      <p>
+        This is placeholder content about my interests. You can talk about your hobbies,
+        technology interests, goals in web development, or anything you'd like to share.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> Micheal Onyemelonu | Nigeria
+    </p>
+
+    <p id="lastModified"></p>
+  </footer>
+
+  <script>
+    document.getElementById("currentyear").textContent = new Date().getFullYear();
+    document.getElementById("lastModified").textContent =
+      "Last Modified: " + document.lastModified;
+  </script>
+</body>
+</html>
