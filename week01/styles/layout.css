@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+    column-gap: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid var(--border-color);
+    gap: 2rem;
+    margin: 2rem 0;
+    border-radius: 6px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0%;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}
