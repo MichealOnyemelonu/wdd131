@@ -2,6 +2,145 @@
 :root {
   --primary: #1e3a8a;
   --secondary: #3b82f6;
-  --background: #f3f4f6;
+  --background: rgb(4, 82, 85) ;
   --text: #2d2d2d;
 }
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+    column-gap: 1rem;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+
+header span {
+    font-weight: 1000;
+    display: block;
+    text-align: center;
+    background-color: var(--secondary);
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;    
+  gap: 1rem;                  
+  flex-wrap: wrap;
+  padding: 10px;  
+  background-color: gray; 
+  border-radius: 6px;
+  color: red;
+    
+}
+
+nav:hover{
+    background-color: white;
+    cursor: pointer;
+    
+
+
+} 
+
+
+nav a:hover {
+    background-color: gray;
+    transform: translateY(2px);
+    border-radius: 4px;
+
+}
+
+
+
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+
+  display: grid;                        
+  grid-template-columns: 1fr;            
+  gap: 1rem;                             
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;  
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+
+
+.About-Me img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+
+
+
+
+
+.My-Interest {
+  display: grid;
+  grid-template-columns: 1fr 3fr;  
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+.My-Interest h2 {
+    text-align: center;
+    border-top: solid #000;
+    border-bottom: 2px solid  #000;
+    grid-column: 1 / -1;
+}
+
+
+.My-Interest img {
+  width: 150px;
+  height: auto;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+
+
+
+.My-Interest p {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+
+
+
+
+h1{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: var(--secondary);
+    border-radius: 6px;
+}
+
+

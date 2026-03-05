@@ -3,10 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD 131 Dynamic Web Fundamentals Micheal Onyemelonu</title>
   <meta name="description" content="WDD 131 Dynamic Web Fundamentals | Micheal Onyemelonu | Personal homepage with course links, practice assignments, and web development projects.">
   <meta name="author" content="Micheal Onyemelonu">
+
+  <title>WDD 131 Dynamic Web Fundamentals Micheal Onyemelonu</title>
+
+  <link rel="stylesheet" href="styles/base.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <script src="scripts/getdates.js"defer ></script>
 </head>
+
+
 
 <body>
   <header>
@@ -25,39 +37,40 @@
 
     <h1>Micheal Onyemelonu</h1>
 
-    <section class="card">
+    <div class="main-grid"></div>
+
+    <section class="card About-Me">
       <h2>About Me</h2>
       <img src="images/profile.jpg" alt="Profile picture">
+    
       <p>
-        This is some placeholder text about me. You can replace this with a short
-        introduction: where you are from, what you are studying, and what you
-        enjoy doing.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
       </p>
     </section>
-
-
-    <section class="card">
+    
+    
+    <section class="card My-Interest">
+     
       <h2>My Interests</h2>
+      <div class="card-grid"></div>
       <img src="images/nigeria-picture.webp" alt="Picture of a city in nigeria">
       <p>
-        This is placeholder content about my interests. You can talk about your hobbies,
-        technology interests, goals in web development, or anything you'd like to share.
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+         tempor incididunt ut labore et dolore magna aliqua
       </p>
     </section>
+    
+
+   
   </main>
 
   <footer>
-    <p>
-      &copy; <span id="currentyear"></span> Micheal Onyemelonu | Nigeria
-    </p>
-
+    <p> ©️ <span id="currentyear"></span>  Micheal Onyemelonu | Nigeria </p>
     <p id="lastModified"></p>
+
+   
   </footer>
 
-  <script>
-    document.getElementById("currentyear").textContent = new Date().getFullYear();
-    document.getElementById("lastModified").textContent =
-      "Last Modified: " + document.lastModified;
-  </script>
 </body>
 </html>
