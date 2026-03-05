@@ -2,7 +2,7 @@
 :root {
   --primary: #1e3a8a;
   --secondary: #3b82f6;
-  --background: rgb(4, 82, 85) ;
+  --background: rgb(4, 82, 85);
   --text: #2d2d2d;
 }
 
@@ -19,6 +19,11 @@ body {
     font-weight: 400;
 }
 
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
 
 
 header span {
@@ -40,7 +45,7 @@ nav {
   padding: 10px;  
   background-color: gray; 
   border-radius: 6px;
-  color: red;
+  
     
 }
 
