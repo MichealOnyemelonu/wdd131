@@ -1,3 +1,3 @@
 const now = new Date();
 document.getElementById("lastModified").textContent =
-  "Page loaded at: " + now.toLocaleString();
+  "Last Modified: " + now.toLocaleString();
