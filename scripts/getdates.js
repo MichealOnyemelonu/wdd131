@@ -1,4 +1,3 @@
-
-document.getElementById("currentyear").textContent = new Date().getFullYear();
-
-document.getElementById("lastModified").textContent ="Last Modified: " + document.lastModified;
+const now = new Date();
+document.getElementById("lastModified").textContent =
+  "Page loaded at: " + now.toLocaleString();
