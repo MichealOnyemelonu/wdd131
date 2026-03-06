@@ -1,12 +1,6 @@
-
-
-
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-  
-    
-    
+    font-weight: 400;    
 }
 
 header {
@@ -52,24 +46,16 @@ nav a:hover {
     border-radius: 4px;
 }
 
-
-
-
 main {
     max-width: 1000px;
     margin: 2rem auto;                  
 }
 
 
-
 .main-grid {
   display: flex;
-  gap: 1rem;
-  
-  
+  gap: 1rem; 
 }
-
-
 
 
 h1{
@@ -77,20 +63,19 @@ h1{
     text-align: center;
 }
 
-
-
 .About-Me{
-    flex: 2;   
+    flex: 2;
 }
   
 .About-Me span{
     text-align: center;
-    font-weight: 400;
+    font-weight: 700;
     padding: 1rem;
     display: block;
     background-color: var(--border-color);
     border-radius: 6px;
     padding: 5px;
+    
 
 }
 
@@ -104,7 +89,7 @@ h1{
 
 .Web-Resources span{
     text-align: center;
-    font-weight: 400;
+    font-weight: 700;
     padding: 1rem;
     display: block;
     background-color: var(--border-color);
@@ -136,6 +121,7 @@ h1{
 .PortHarcourt h2{
     text-align: center;
     border-bottom: 2px solid var(--text-color);
+    font-weight: 500;
 }
 
 .PortHarcourt{
