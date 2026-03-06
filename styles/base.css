@@ -1,18 +1,4 @@
-:root {
-    --body-font: "Roboto", sans-serif;
-    --primary-color: orange;
-    --text-color: #000000;
-    --border-color: #ccc;
-    --white-color: #ffffff;
-}
 
-header,
-footer {
-    max-width: 1000px;
-    margin: 0 auto;
-    
-    
-}
 
 
 body {
@@ -46,17 +32,12 @@ nav {
   flex-wrap: wrap;
   padding: 10px;  
   background-color: var(--border-color); 
-  border-radius: 6px;
-  
-    
+  border-radius: 6px;    
 }
 
 nav:hover{
     background-color: var(--white-color);
     cursor: pointer;
-    
-
-
 } 
 
 
@@ -65,12 +46,10 @@ nav a {
   text-decoration: none
 }
 
-
 nav a:hover {
     background-color: var(--border-color);
     transform: translateY(2px);
     border-radius: 4px;
-
 }
 
 
@@ -78,68 +57,17 @@ nav a:hover {
 
 main {
     max-width: 1000px;
-    margin: 2rem auto;
-    padding: 1rem;
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    display: grid;                        
-    grid-template-columns: 1fr;            
-    gap: 1rem; 
-                              
+    margin: 2rem auto;                  
 }
 
 
 
-.main-grid{
-    display: grid;
-    grid-template-columns: 1fr 3fr;  
-    grid-template-rows: auto auto;
-    gap: 1rem;
-}
-
-
-.About-Me img {
-    width: 150px;
-    height: auto;
-    border: 1px solid var(--primary-color);
-    padding: 2px;
-    box-shadow: 0 0 30px var(--border-color);
-    float: right;
-    margin: 0 0 1rem 1rem;
-}
-
-
-
-.My-Interest {
-  display: grid;
-  grid-template-columns: 1fr 3fr;  
-  grid-template-rows: auto auto;
+.main-grid {
+  display: flex;
   gap: 1rem;
+  
+  
 }
-
-.My-Interest h2 {
-    text-align: center;
-    border-top: 2px solid var(--text-color);
-    border-bottom: 2px solid var(--text-color);
-    grid-column: 1 / -1;
-}
-
-
-.My-Interest img {
-  width: 150px;
-  height: auto;
-  grid-column: 1;
-  grid-row: 2;
-}
-
-
-
-
-.My-Interest p {
-  grid-column: 2;
-  grid-row: 2;
-}
-
 
 
 
@@ -151,10 +79,85 @@ h1{
 
 
 
-footer {
+.About-Me{
+    flex: 2;   
+}
+  
+.About-Me span{
     text-align: center;
-    background-color: var(--primary-color);
+    font-weight: 400;
+    padding: 1rem;
+    display: block;
+    background-color: var(--border-color);
     border-radius: 6px;
+    padding: 5px;
+
 }
 
 
+.About-Me img {
+    width: 150px;
+    padding: 2px;
+    box-shadow: 0 0 30px var(--border-color);
+    float: right;
+}
+
+.Web-Resources span{
+    text-align: center;
+    font-weight: 400;
+    padding: 1rem;
+    display: block;
+    background-color: var(--border-color);
+    border-radius: 6px;
+    padding: 5px;
+
+}
+
+.Web-Resources ul {
+  list-style-type: disc;
+  text-align:justify;
+  justify-content: center;    
+  gap: 1rem;                   
+  border-radius: 6px;
+}
+
+.Web-Resources li {
+  margin-bottom: 0.5rem;
+  
+}
+
+
+.Web-Resources a {
+  text-decoration: underline;
+  font-weight: 600; 
+}
+
+
+.PortHarcourt h2{
+    text-align: center;
+    border-bottom: 2px solid var(--text-color);
+}
+
+.PortHarcourt{
+    padding-top: 100px;
+
+
+}
+.city-layout {
+  display: flex;                 
+  gap: 20px;                     
+  align-items: flex-start;       
+}
+
+.city-layout figure {
+  max-width: 200px;              
+}
+
+.city-layout img {
+  width: 100%;                   
+  border-radius: 6px;            
+}
+
+.city-layout p {
+  flex: 1;                       
+}
