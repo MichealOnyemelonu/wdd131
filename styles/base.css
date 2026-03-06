@@ -70,11 +70,10 @@ h1{
 .About-Me span{
     text-align: center;
     font-weight: 700;
-    padding: 1rem;
     display: block;
     background-color: var(--border-color);
     border-radius: 6px;
-    padding: 5px;
+    padding: 1rem;
     
 
 }
@@ -90,7 +89,6 @@ h1{
 .Web-Resources span{
     text-align: center;
     font-weight: 700;
-    padding: 1rem;
     display: block;
     background-color: var(--border-color);
     border-radius: 6px;
