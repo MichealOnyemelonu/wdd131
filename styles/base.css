@@ -65,14 +65,19 @@ h1{
 
 .About-Me{
     flex: 2;
+    
+}
+
+.About-Me h2{
+  background-color: var(--border-color);
+  text-align: center;
+  border-radius: 6px;
 }
   
 .About-Me span{
     text-align: center;
     font-weight: 700;
     display: block;
-    background-color: var(--border-color);
-    border-radius: 6px;
     padding: 1rem;
     
 
@@ -84,6 +89,13 @@ h1{
     padding: 2px;
     box-shadow: 0 0 30px var(--border-color);
     float: right;
+}
+
+.Web-Resources h2{
+  background-color: var(--border-color);
+  text-align: center;
+  border-radius: 6px;
+
 }
 
 .Web-Resources span{
@@ -116,10 +128,11 @@ h1{
 }
 
 
-.PortHarcourt h2{
+.PortHarcourt h3{
     text-align: center;
     border-bottom: 2px solid var(--text-color);
     font-weight: 500;
+    
 }
 
 .PortHarcourt{
