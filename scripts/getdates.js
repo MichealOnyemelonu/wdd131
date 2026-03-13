@@ -1,3 +1,6 @@
-const now = new Date();
+
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+
 document.getElementById("lastModified").textContent =
-  "Last Modified: " + now.toLocaleString();
+  "Last Modified: " + document.lastModified;
