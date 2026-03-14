@@ -1,0 +1,41 @@
+.card {
+  padding: 16px;
+  border: solid var(--border-color);
+  border-radius: 6px;
+}
+
+
+.Web-Resources{
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+}
+
+
+
+.PortHarcourt {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+.PortHarcourt h2 {
+  grid-column: 1 / -1;       
+  text-align: center;
+  border-bottom: 2px solid var(--text-color);
+  grid-column: 1 / -1;
+}
+
+
+
+.PortHarcourt img {
+  width: 150px;
+  height: auto;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.PortHarcourt p {
+  grid-column: 2;            
+}

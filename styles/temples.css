@@ -1,0 +1,103 @@
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+header span {
+    font-weight: 1000;
+    display: block;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;    
+  gap: 1rem;                  
+  flex-wrap: wrap;
+  padding: 10px;  
+  background-color: var(--border-color); 
+  border-radius: 6px;    
+}
+
+nav:hover{
+    background-color: var(--white-color);
+    cursor: pointer;
+} 
+
+
+nav a {
+  color: var(--text-color); 
+  text-decoration: none
+}
+
+nav a:hover {
+    background-color: var(--border-color);
+    transform: translateY(2px);
+    border-radius: 4px;
+}
+
+
+
+
+
+
+main h1 {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+figure img {
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) 
+
+{
+
+  
+  #menu-button {
+    display: block;
+  }
+
+  
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  
+  #nav-menu.open {
+    display: flex;
+  }
+
+  
+  .gallery {
+    grid-template-columns: 1fr;
+}
+}
