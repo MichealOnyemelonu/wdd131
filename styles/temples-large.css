@@ -4,26 +4,27 @@
 {
 
   
-  #menu-button {
+#menu-button {
     display: block;
-  }
+}
 
   
-  #nav-menu {
+#nav-menu {
     display: none;
     flex-direction: column;
     gap: 1rem;
     margin-top: 1rem;
     padding: 1rem;
-  }
+}
 
   
-  #nav-menu.open {
+#nav-menu.open {
     display: flex;
-  }
+}
 
   
-  .gallery {
+.gallery {
     grid-template-columns: 1fr;
 }
+
 }
