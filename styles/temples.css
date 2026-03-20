@@ -64,6 +64,10 @@ nav a:hover {
 
 
 
+main{
+  max-width: 1000px;
+  margin: 2rem auto;
+}
 
 main h1 {
   text-align: center;
