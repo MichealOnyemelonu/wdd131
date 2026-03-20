@@ -1,6 +1,16 @@
 header {
   padding: 1rem;
-  text-align: center;
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  
+}
+
+
+
+header > div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 header span {
@@ -13,6 +23,8 @@ header span {
     
 }
 
+
+
 .header-content{
   display: flex;
   justify-content: space-between;
@@ -23,7 +35,7 @@ header span {
 
 nav {
   display: flex;
-  justify-content: center;    
+  justify-content: left;    
   gap: 1rem;                  
   flex-wrap: wrap;
   padding: 10px;  
@@ -68,7 +80,8 @@ figure {
 }
 
 figure img {
-  width: auto;
+  max-width: 100%;
   height: auto;
+  display: block;
   border-radius: 6px;
 }
