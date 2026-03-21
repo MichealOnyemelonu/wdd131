@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 131 Dynamic Web Fundamentals | Micheal Onyemelonu | Personal homepage with course links, practice assignments, and web development projects.">
+  <meta name="author" content="Micheal Onyemelonu">
+
+  <title>WDD 131: Dynamic Web Fundamentals | Micheal Onyemelonu</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/footer.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1 id="place-title">Rivers State</h1>
+  </header>
+
+  
+  <main>
+    <section class="hero">
+      <img src="images/nigeria-picture.webp" alt="Port Harcourt City, Nigeria. " />
+    </section>
+
+
+    <section class="card" id="data-section">
+      <h2>Data</h2>
+      <dl>
+        <div class="data-row">
+          <dt>Area:</dt>
+          <dd>587,041 sq km</dd>
+        </div>
+        <div class="data-row">
+          <dt>Population:</dt>
+          <dd>27,691,018</dd>
+        </div>
+        <div class="data-row">
+          <dt>Capital:</dt>
+          <dd>Port Harcourt</dd>
+        </div>
+        <div class="data-row">
+          <dt>Languages:</dt>
+          <dd>English, Igbo, Huasa and Yoyruba</dd>
+        </div>
+        <div class="data-row">
+          <dt>Currency:</dt>
+          <dd>Malagasy Ariary</dd>
+        </div>
+        <div class="data-row">
+          <dt>Time Zone:</dt>
+          <dd>UTC+3</dd>
+        </div>
+        <div class="data-row">
+          <dt>Calling Code:</dt>
+          <dd>+261</dd>
+        </div>
+        <div class="data-row">
+          <dt>Internet TLD:</dt>
+          <dd>.mg</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="card" id="weather-section">
+      <h2>Weather</h2>
+
+      
+      <img class="weather-icon" src="images/weather.jpg" alt="Partly cloudy icon" />
+
+      <dl>
+        <div class="data-row">
+          <dt>Temperature:</dt>
+          <dd><span id="temp">10</span> °C</dd>
+        </div>
+        <div class="data-row">
+          <dt>Conditions:</dt>
+          <dd id="conditions">Partly Cloudy</dd>
+        </div>
+        <div class="data-row">
+          <dt>Wind:</dt>
+          <dd><span id="wind-speed">5</span> km/h</dd>
+        </div>
+        <div class="data-row">
+          <dt>Wind Chill:</dt>
+          <dd><span id="wind-chill">N/A</span> °C</dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+   <footer>
+    <p>© <span id="currentyear"></span> | Micheal Onyemelonu | Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
