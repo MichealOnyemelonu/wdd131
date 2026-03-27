@@ -92,31 +92,32 @@ const temples = [
     dedicated: "2004, January, 11",
     area: 17500,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-7182-thumb.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
-   {
-    templeName: "Manti Utah",
-    location: "Manti, Utah, United States",
-    dedicated: "1888, May, 21",
-    area: 74792,
+
+  {
+    templeName: "Auckland New Zealand Temple",
+    location: "Albuquerque, New Mexico",
+    dedicated: "2025, April, 13",
+    area: 45456,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/auckland-new-zealand-temple/auckland-new-zealand-temple-57803-thumb.jpg"
   },
   {
-    templeName: "Washington D.C.",
-    location: "Kensington, Maryland, United States",
-    dedicated: "1974, November, 19",
-    area: 156558,
+    templeName: "Albuquerque New Mexico Temple",
+    location: "Auckland New Zealand",
+    dedicated: "2000, March, 05",
+    area: 34245,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/albuquerque-new-mexico-temple/albuquerque-new-mexico-temple-56335-main.jpg"
   },
   {
-    templeName: "Salt Lake Utah",
-    location: "Salt Lake City, Utah, United States",
-    dedicated: "1893, April, 6",
-    area: 382207,
+    templeName: "Bangkok Thailand Temple",
+    location: "Ratchathewi Bangkok",
+    dedicated: "2023, October, 22",
+    area: 34245,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/bangkok-thailand-temple/bangkok-thailand-temple-40037-main.jpg"
   }
 ];
 

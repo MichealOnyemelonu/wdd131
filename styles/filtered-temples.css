@@ -89,3 +89,9 @@ figure img {
   display: block;
   border-radius: 6px;
 }
+.temple-card img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
