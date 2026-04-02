@@ -97,7 +97,7 @@ const temples = [
 
   {
     templeName: "Auckland New Zealand Temple",
-    location: "Albuquerque, New Mexico",
+    location:  "Auckland New Zealand",
     dedicated: "2025, April, 13",
     area: 45456,
     imageUrl:
@@ -105,7 +105,7 @@ const temples = [
   },
   {
     templeName: "Albuquerque New Mexico Temple",
-    location: "Auckland New Zealand",
+    location: "Albuquerque, New Mexico",
     dedicated: "2000, March, 05",
     area: 34245,
     imageUrl:
@@ -198,6 +198,11 @@ document.querySelectorAll("[data-filter]").forEach((link) => {
   link.addEventListener("click", (e) => {
     e.preventDefault();
     applyFilter(link.dataset.filter);
+
+    
+    document.querySelectorAll("#nav-menu a").forEach(a => a.classList.remove("active"));
+    link.classList.add("active");
+
 
     
     navMenu.classList.remove("open");
