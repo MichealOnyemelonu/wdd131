@@ -4,8 +4,20 @@ body {
     margin: 0 auto;
 }
 
-div p {
+
+h1 {
     text-align: center;
 }
+main  {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-@media (max-width: 480px) { }
+
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+ }
