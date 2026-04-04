@@ -1,0 +1,23 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    fieldset {
+      margin-bottom: 1.5rem;
+    }
+
+    .stars label {
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+ 

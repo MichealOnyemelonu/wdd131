@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WDD 131 Dynamic Web Fundamentals | Micheal Onyemelonu | Personal homepage with course links, practice assignments, and web development projects.">
+  <meta name="author" content="Micheal Onyemelonu">
+
+  <title>WDD,131,Dynamic Web Fundamentals Micheal Onyemelonu</title>
+
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/form.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <script src="scripts/form.js" defer ></script>
+  <script src="scripts/getdates.js" defer></script>
+</head>
+
+  <h1>Product Review Form</h1>
+
+  review.html
+
+    <fieldset>
+      <legend>Product Name</legend>
+      <label for="product">Choose a product:
+
+      <select id="product" name="product" required>
+        <option value="" >Please Select &#9662;</option>
+        <option value="" >Select a Product</option>
+        <option value="" >Select a Product</option>
+        <option value="" >Select a Product</option>
+      </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Overall Rating</legend>
+
+      <div class="stars">
+        <input type="radio" id="star1" name="rating" value="1" required>
+        <label for="star1">1</label>
+
+        <input type="radio" id="star2" name="rating" value="2">
+        <label for="star2">2</label>
+
+        <input type="radio" id="star3" name="rating" value="3">
+        <label for="star3">3</label>
+
+        <input type="radio" id="star4" name="rating" value="4">
+        <label for="star4">4</label>
+
+        <input type="radio" id="star5" name="rating" value="5">
+        <label for="star5">5</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Date of Installation</legend>
+
+      <label for="installDate">Installation Date:</label><br>
+      <input type="date" id="installDate" name="installDate" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>Useful Features</legend>
+
+      <input type="checkbox" id="feature1" name="features" value="Ease of Use">
+      <label for="feature1">Ease of Use</label><br>
+
+      <input type="checkbox" id="feature2" name="features" value="Performance">
+      <label for="feature2">Performance</label><br>
+
+      <input type="checkbox" id="feature3" name="features" value="Design">
+      <label for="feature3">Design</label><br>
+
+      <input type="checkbox" id="feature4" name="features" value="Support">
+      <label for="feature4">Customer Support</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Written Review</legend>
+
+      <label for="review">Your Review:</label><br>
+      <textarea id="review" name="review" rows="5" cols="40"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>User Name</legend>
+
+      <label for="username">Your Name (optional):</label><br>
+      <input type="text" id="username" name="username">
+    </fieldset>
+
+    <input type="submit" value="Submit Review">
+
+  </form>
+
+  <footer>
+    <p>© <span id="currentyear"></span> | Micheal Onyemelonu | Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+
+
+</body>
+</html>
