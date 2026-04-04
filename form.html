@@ -19,27 +19,27 @@
   <script src="scripts/form.js" defer ></script>
   <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
 
 	<header>
- <h1>Course Proposal</h1>
-        <h2>Designing Web Forms</h2>
-    </header>
+ <h1>Designing Web Forms</h1>
+</header>
   
   <main>
 
   <h1>Product Review Form</h1>
+  review.html
   <form method="get" action="thanks.html" class="wf1"> 
 
-  review.html
 
     <fieldset>
       <legend>Product Name</legend>
-      <label for="product">Choose a product:
+      <label for="product">Choose a product:</label>
 
       <select id="product" name="product" required>
         <option value="" >Please Select &#9662;</option>
-        <option value="" >Select a Product</option>
+        <option value="disable selected" >Select a Product</option>
         <option value="" >Select a Product</option>
         <option value="" >Select a Product</option>
       </select>
@@ -91,7 +91,7 @@
     </fieldset>
 
     <fieldset>
-      <legend>Written Review</legend>
+      <legend>Review</legend>
 
       <label for="review">Your Review:</label><br>
       <textarea id="review" name="review" rows="5" cols="40"></textarea>
