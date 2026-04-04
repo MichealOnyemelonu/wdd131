@@ -1,23 +1,3 @@
-
-const products = [
-      { name: "Smart Thermostat" },
-      { name: "Wireless Headphones" },
-      { name: "Security Camera" },
-      { name: "Smart Door Lock" }
-    ];
-
-const productSelect = document.getElementById("product");
-
-products.forEach(product => {
-      const option = document.createElement("option");
-      option.value = product.name;
-      option.textContent = product.name;
-      productSelect.appendChild(option);
-    });
-
-
-
-
 const products = [
   {
     id: "fc-1888",
@@ -45,3 +25,12 @@ const products = [
     averagerating: 5.0
   }
 ];
+
+const productSelect = document.getElementById("product");
+
+products.forEach(product => {
+      const option = document.createElement("option");
+      option.value = product.id;
+      option.textContent = product.name;
+      productSelect.appendChild(option);
+    });
