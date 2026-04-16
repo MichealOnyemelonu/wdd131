@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Micheal Onyemelonu">
+
+
+    <title>Mental Health & Self Care</title>
+
+
+    <link rel="stylesheet" href="styles/siteplan_header_footer.css">
+    <link rel="stylesheet" href="styles/siteplan1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <script src="scripts/siteplan_getdates.js" defer></script>
+
+
+</head>
+<body>
+
+    <header>
+        <h1>Mental Health & Self Care</h1>
+        <p>Simple tools to support your well being</p>
+    </header>
+
+    <nav>
+        <a href="#stress">Stress Relief</a>
+        <a href="#mindfulness">Mindfulness</a>
+        <a href="#routine">Healthy Routines</a>
+        <a href="#sleep">Better Sleep</a>
+        <a href="#tracker">Daily Mood Tracker</a>
+        <a href="https://michealonyemelonu.github.io/wdd131/project/siteplan.html">Website Plan</a>
+    </nav>
+
+    <main>
+        <section id="stress">
+            <h2>Stress Relief Techniques</h2>
+            <ul>
+                <li>Take slow, deep breaths for 5 minutes</li>
+                <li>Go for a short walk outside</li>
+                <li>Write down what is worrying you</li>
+            </ul>
+        </section>
+
+        <section id="mindfulness">
+            <h2>Mindfulness Practices</h2>
+            <p>Mindfulness helps you stay present and calm.</p>
+            <ul>
+                <li>Focus on your breathing</li>
+                <li>Notice sounds around you</li>
+                <li>Observe thoughts without judging them</li>
+            </ul>
+        </section>
+
+        <section id="routine">
+            <h2>Healthy Daily Routines</h2>
+            <ul>
+                <li>Eat regular, balanced meals</li>
+                <li>Drink enough water</li>
+                <li>Take short breaks during work or study</li>
+            </ul>
+        </section>
+
+        <section id="sleep">
+            <h2>Sleep Improvement Tips</h2>
+            <ul>
+                <li>Go to bed at the same time every day</li>
+                <li>Avoid screens before sleeping</li>
+                <li>Create a calm bedtime routine</li>
+            </ul>
+        </section>
+
+        <section id="tracker">
+            <h2>Daily Mood Tracker</h2>
+            <p>Select how you feel today and get a self care tip.</p>
+
+            <select id="mood">
+                <option value="">-- Choose your mood --</option>
+                <option value="happy">😊 Happy</option>
+                <option value="okay">😐 Okay</option>
+                <option value="stressed">😟 Stressed</option>
+                <option value="sad">😢 Sad</option>
+            </select>
+
+            <button onclick="showTip()">Get Self Care Tip</button>
+
+            <div id="tip"></div>
+        </section>
+    </main>
+
+   <footer>
+    <p>© <span id="currentyear"></span> | Micheal Onyemelonu | Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

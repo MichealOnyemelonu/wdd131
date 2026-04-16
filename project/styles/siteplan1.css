@@ -1,0 +1,93 @@
+:root {
+    --body-font: "Roboto", sans-serif;
+    --primary-color: orange;
+    --text-color: #000000;
+    --border-color: #ccc;
+    --white-color: #ffffff;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 10;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color:var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 6px;
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--border-color);
+    
+    max-width: 1000px;
+}
+
+nav a {
+    margin: 5px 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+   
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background-color: var(--border-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color:var(--text-color);
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--border-color);
+}
+
+#tip {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
