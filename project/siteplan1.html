@@ -19,6 +19,7 @@
 
 
     <script src="scripts/siteplan_getdates.js" defer></script>
+    <script src="scripts/siteplan.js"></script>
 
 
 </head>
@@ -78,20 +79,26 @@
 
         <section id="tracker">
             <h2>Daily Mood Tracker</h2>
-            <p>Select how you feel today and get a self care tip.</p>
-
-            <select id="mood">
+            
+            <form id="moodForm">
+                <label for="mood">How are you feeling today?</label>
+                <select id="mood">
                 <option value="">-- Choose your mood --</option>
                 <option value="happy">😊 Happy</option>
                 <option value="okay">😐 Okay</option>
                 <option value="stressed">😟 Stressed</option>
                 <option value="sad">😢 Sad</option>
             </select>
+                <button type="button" onclick="showTip()">Get Self Care Tip</button>
+            </form>
 
-            <button onclick="showTip()">Get Self Care Tip</button>
+
 
             <div id="tip"></div>
         </section>
+        
+
+        
     </main>
 
    <footer>

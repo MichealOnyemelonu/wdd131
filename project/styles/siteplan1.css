@@ -9,11 +9,11 @@
 
 * {
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: var(--body-font);
 }
 
 body {
-    margin: 10;
+    
     background-color: var(--white-color);
     color: var(--text-color);
 }
